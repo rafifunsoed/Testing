@@ -19,6 +19,8 @@ def J(X):
 # Tebakan awal
 X = np.array([1.0, 1.0, 1.0])
 
+print("RAFIF")
+
 tol = 1e-6
 max_iter = 100
 
@@ -46,3 +48,6 @@ print("z =", X[2])
 print("Jumlah iterasi =", k+1)
 print("F(X) =", F(X))
 print("Hello")
+
+
+
